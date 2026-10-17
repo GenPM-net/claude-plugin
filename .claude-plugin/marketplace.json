@@ -1,0 +1,19 @@
+{
+  "name": "genpm",
+  "owner": {
+    "name": "GenPM",
+    "url": "https://genpm.net"
+  },
+  "metadata": {
+    "description": "GenPM for Claude Code: add full modules (auth, Stripe billing, email, AI chat, store, blog…) as source code with their AI rules and MCP config."
+  },
+  "plugins": [
+    {
+      "name": "genpm",
+      "source": "./",
+      "description": "Search the GenPM registry and inject full modules (auth, Stripe billing, email, AI chat, store, blog…) into your project as source code, with their AI rules and MCP config, pinned to a verified commit.",
+      "category": "development",
+      "homepage": "https://genpm.net/mcp"
+    }
+  ]
+}
